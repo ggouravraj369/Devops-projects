@@ -1,0 +1,18 @@
+""" Production ready CI/CD pipeline Setup using 
+AWS, Jenkins, Sonarqube, Nexus, Ansible, Docker, Kuberentes"""
+
+# Stage/level wise CI/CD setup.
+# Stage1: Simple CI/CD setup git-jenkins-ec2.
+# Stage2: CI/CD setup git-jenkins-Ansible-ec2.
+# Stage3: CI/CD setup git-jenkins-Sonarqube-Nexus-Ansible-ec2.
+# Stage4: CI/CD setup git-jenkins-Sonarqube-Nexus-Ansible-Docker.
+# Stage3: CI/CD setup git-jenkins-Sonarqube-Nexus-Ansible-Docker & K8s.
+
+
+# Pre-requisites for CI/CD pipeline.
+1. Git/Github account.
+2. Java code Simple/complex but working one.
+3. AWS account.
+4. Jenkins server                              {same- 
+5. Maven & Git installation, configuration           -server/instance}   
+6. Tomcat server(Linux)                    {separate server}
